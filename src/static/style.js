@@ -9,8 +9,7 @@ const s = StyleSheet.create({
   bgcf: {
     backgroundColor: '#fff',
   },
-  df: {
-    display: 'flex',
+  fr: {
     flexDirection: 'row',
   },
   aic: {

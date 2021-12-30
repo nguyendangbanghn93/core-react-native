@@ -6,13 +6,13 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '~screens/HomeScreen';
 import VideoScreen from '~screens/VideoScreen';
 import Routes from '~Routes';
-
+// import SearchBar from '~components/common/SearchBar';
+require('~/plugins/axios');
 const Stack = createNativeStackNavigator();
 const App = () => {
-  console.log(456);
   return (
     <SafeAreaView style={[s.container]}>
-     <Routes/>
+      {/* <Routes /> */}
     </SafeAreaView>
   );
 };
